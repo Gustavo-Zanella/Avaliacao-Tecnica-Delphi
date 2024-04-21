@@ -14,7 +14,6 @@ Este é um teste técnico que foi desenvolvido para testar meus conhecimentos em
 ### :large_orange_diamond: Pré-requisitos para execução
 Antes de iniciar, você deve possuir:
 
-- Delphi 11: você pode instalar a partir de https://www.embarcadero.com/products/delphi/starter
 - PostgreSQL 16: você pode instalar a partir de https://www.postgresql.org/download
 
 ---
@@ -38,7 +37,7 @@ Antes de iniciar, você deve possuir:
    - Cria um DataBase chamado "local" no seu LocalHost
    - Copei os SQLs de Criação de Tabela, e os Execute
    ```
-2. Configuração do Banco de Dados:
+2. Configuração do Delphi:
    ```bash
    - Execute o Arquivo Taif.Exe
    - Caminho: "Delphi/Win32/Debug"
