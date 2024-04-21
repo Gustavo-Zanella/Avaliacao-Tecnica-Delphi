@@ -127,6 +127,7 @@ end;
 procedure TfrmPrincipal.FormShow(Sender: TObject);
 begin
   CarregaDadosCliente;
+  ShowMessage(DM.conDB.ConnectionName);
 end;
 
 function TfrmPrincipal.GetBanco: TBanco;
