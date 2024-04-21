@@ -80,6 +80,7 @@ procedure TfrmCadCarro.FormShow(Sender: TObject);
 begin
   edtModelo.Clear;
   edtDataLancamento.Clear;
+  edtModelo.SetFocus;
 end;
 
 procedure TfrmCadCarro.edtExit(Sender: TObject);
