@@ -11,9 +11,36 @@ Este é um teste técnico que foi desenvolvido para testar meus conhecimentos em
 - Se o cliente comprou dois carros do modelo Marea esta desclassificado.
 - A empresa te contratou para realizar o desenvolvimento das consultas SQL do sorteio, abaixo está o esquema de tabela desenvolva as pesquisas:
 ---
+### :large_orange_diamond: Pré-requisitos para execução
+Antes de iniciar, você deve possuir:
 
-### :large_orange_diamond: Stack de tecnologia
-- Delphi: linguagem de programação utilizada no back-end.
-- PostgreSql: banco utilizado no back-end para armazenar os dados.
+- Delphi 11: você pode instalar a partir de https://www.embarcadero.com/products/delphi/starter
+- PostgreSQL 16: você pode instalar a partir de https://www.postgresql.org/download
 
 ---
+
+### :large_orange_diamond: Stack de tecnologia
+- Delphi 11: linguagem de programação utilizada no back-end.
+- PostgreSQL 16: banco utilizado no back-end para armazenar os dados.
+
+---
+
+### :large_orange_diamond: Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi.git
+   ```
+
+### :large_orange_diamond: Execução do Programa:
+1. Cria um Database:
+   ```bash
+   - Abra seu Postgres
+   - Cria um DataBase chamado "local" no seu LocalHost
+
+   ```
+2. Execute os SQL:
+   ```bash
+   - Vá até [Gere o script de criação das Tabelas](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/blob/main/Banco%20de%20Dados/Gere%20o%20script%20de%20criação%20das%20Tabelas.sql)
+
+   - Copie e Execute no seu Banco, dentro do DataBase Criado anteriormente.
+   ```
