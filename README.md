@@ -32,15 +32,15 @@ Antes de iniciar, você deve possuir:
    ```
 
 ### :large_orange_diamond: Execução do Programa:
-1. Cria um Database:
+1. Configuração do Banco de Dados:
    ```bash
    - Abra seu Postgres
    - Cria um DataBase chamado "local" no seu LocalHost
-
+   - Copei os SQLs de Criação de Tabela, e os Execute
    ```
-2. Execute os SQL:
+2. Configuração do Banco de Dados:
    ```bash
-   - Vá até 
-[Gere o script de criação das Tabelas](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/blob/main/Banco%20de%20Dados/Gere%20o%20script%20de%20criação%20das%20Tabelas.sql)
-   - Copie e Execute no seu Banco, dentro do DataBase Criado anteriormente.
+   - Execute o Arquivo .Exe
    ```
+
+[Caminho .Exe](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/blob/main/Delphi/Win32/Debug/Taif.exe)
