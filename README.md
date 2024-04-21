@@ -40,7 +40,7 @@ Antes de iniciar, você deve possuir:
    ```
 2. Configuração do Banco de Dados:
    ```bash
-   - Execute o Arquivo .Exe
+   - Execute o Arquivo Taif.Exe
    ```
 
-[Caminho .Exe](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/blob/main/Delphi/Win32/Debug/Taif.exe)
+[Caminho .Exe](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/tree/main/Delphi/Win32/Debug)
