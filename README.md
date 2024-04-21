@@ -41,6 +41,5 @@ Antes de iniciar, você deve possuir:
 2. Configuração do Banco de Dados:
    ```bash
    - Execute o Arquivo Taif.Exe
+   - Caminho: "Delphi/Win32/Debug"
    ```
-
-[Caminho .Exe](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/tree/main/Delphi/Win32/Debug)
