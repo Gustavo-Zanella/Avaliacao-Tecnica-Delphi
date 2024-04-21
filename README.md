@@ -39,6 +39,5 @@ Antes de iniciar, você deve possuir:
 2. Configuração do Delphi:
    ```bash
    - Configure o aqruivo "Config.ini" com base nos dados do seu banco
-   - Execute o Arquivo Taif.Exe
-   - Caminho: "Delphi/Win32/Debug"
+   - Execute o Arquivo Taif.Exe -> Caminho: "Delphi/Win32/Debug"
    ```
