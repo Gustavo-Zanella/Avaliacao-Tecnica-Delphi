@@ -1,0 +1,45 @@
+unit unClasseVenda;
+
+interface
+
+uses
+  StrUtils, SysUtils;
+
+type
+  TVenda = class
+  private
+    FCodigo: Integer;
+    FData: string;
+    FCodigoCliente: integer;
+
+  public
+    property Codigo : Integer read FCodigo write FCodigo;
+    property Data : string read FData write FData;
+    property CodigoCliente : integer read FCodigoCliente write FCodigoCliente;
+
+    function Inserir : String;
+
+    procedure Clear;
+  end;
+
+implementation
+
+{ TVenda }
+
+procedure TVenda.Clear;
+begin
+  FCodigo := 0;
+  FData := '';
+  FCodigoCliente := 0;
+end;
+
+function TVenda.Inserir: string;
+begin
+  Result :=
+    'INSERT INTO taif.tbvenda (vendata, clicodigo, carcodigo)'+
+    'VALUES (''2021-05-20'', 1, 2)';
+
+  Clear;
+end;
+
+end.

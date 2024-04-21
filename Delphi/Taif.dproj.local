@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/04/15 09:13:01.000.837,=C:\Users\Gustavo Zanella\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/19 19:36:43.000.757,=C:\Users\Gustavo Zanella\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/19 19:52:47.000.389,C:\Users\Gustavo Zanella\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\unPrincipal.dfm</Transaction>
+    <Transaction>2024/04/19 19:52:47.000.389,C:\Users\Gustavo Zanella\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\unPrincipal.pas</Transaction>
+    <Transaction>2024/04/19 19:53:02.000.938,C:\Users\Gustavo Zanella\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Taif.dproj</Transaction>
+    <Transaction>2024/04/20 09:37:11.000.212,=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 09:37:37.000.402,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\unCadCliente.pas</Transaction>
+    <Transaction>2024/04/20 09:37:37.000.402,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.dfm=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\unCadCliente.dfm</Transaction>
+    <Transaction>2024/04/20 10:17:16.000.209,=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 10:17:38.000.156,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\unCadCarro.pas</Transaction>
+    <Transaction>2024/04/20 10:17:38.000.156,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.dfm=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\unCadCarro.dfm</Transaction>
+    <Transaction>2024/04/20 10:34:55.000.330,=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 10:35:18.000.998,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Classes\unClasseCliente.pas</Transaction>
+    <Transaction>2024/04/20 10:35:52.000.399,=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 10:37:46.000.330,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\unDataModule.pas</Transaction>
+    <Transaction>2024/04/20 10:37:46.000.330,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.dfm=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\unDataModule.dfm</Transaction>
+    <Transaction>2024/04/20 13:09:47.000.902,=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 13:09:55.000.672,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Classes\unClasseEdit.pas</Transaction>
+    <Transaction>2024/04/20 13:50:35.000.681,=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 13:51:28.000.601,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Classes\unClasseBanco.pas</Transaction>
+    <Transaction>2024/04/20 17:32:32.175,=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 17:32:49.725,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Classes\unClasseCarro.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 18:32:52.661,=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/04/20 18:33:08.867,C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Classes\unClasseVenda.pas=C:\Users\Gustavo Zanella\Desktop\Questor\Delphi\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
