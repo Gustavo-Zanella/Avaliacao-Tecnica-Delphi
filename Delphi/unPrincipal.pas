@@ -47,7 +47,7 @@ uses unCadCliente, unCadCarro, unDataModule;
 
 {$R *.dfm}
 
-
+//Cadastrar 5 Cliente, Carros e Vendas
 procedure TfrmPrincipal.btnCadastroClick(Sender: TObject);
 var
   i : integer;
@@ -87,6 +87,7 @@ begin
   ShowMessage('Registros Inseridos com Sucesso');
 end;
 
+//Cadsatar 5 vendas
 procedure TfrmPrincipal.CadastraVenda;
 var
   i: Integer;
@@ -107,7 +108,7 @@ begin
     oBanco.InserirDadosBD;
   end;
 end;
-
+//Carregar os dados dos cliente do DataSource
 procedure TfrmPrincipal.CarregaDadosCliente;
 begin
   oBanco.Sql_ :=

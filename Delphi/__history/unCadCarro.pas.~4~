@@ -67,7 +67,7 @@ begin
 
   Close;
 end;
-//Permite apenas algumas Key's
+
 procedure TfrmCadCarro.edtModeloKeyPress(Sender: TObject; var Key: Char);
 begin
   if not (CharInSet(Key, ['A' .. 'Z','a'..'z',#8, ' ']) and (Length(edtModelo.Text) < 255)) then

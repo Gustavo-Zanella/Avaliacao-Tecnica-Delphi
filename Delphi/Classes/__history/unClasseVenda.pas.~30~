@@ -9,14 +9,15 @@ type
   private
     FCodigo: Integer;
     FData: string;
+    FCarro: TCarro;
+    FCliente: TCliente;
 
   public
     property Codigo : Integer read FCodigo write FCodigo;
     property Data : string read FData write FData;
-    property CodigoCliente : integer read FCodigoCliente write FCodigoCliente;
-
+    property Cliente : TCliente read FCliente write FCliente;
+    property Carro : TCarro read FCarro write FCarro;
     function Inserir : String;
-
     procedure Clear;
   end;
 
@@ -28,13 +29,15 @@ procedure TVenda.Clear;
 begin
   FCodigo := 0;
   FData := '';
+  FCliente := nil;
+  FCarro := nil;
 end;
 
 function TVenda.Inserir: string;
 begin
   Result :=
     'INSERT INTO taif.tbvenda (vendata, clicodigo, carcodigo)'+
-    'VALUES (''2021-05-20'', 1, 2)';
+    'VALUES ('+QuotedStr(FData)+', '+IntToStr(FCliente.Codigo)+', '+IntToStr(FCarro.Codigo)+')';
 
   Clear;
 end;

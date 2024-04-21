@@ -33,14 +33,14 @@ object frmCadCarro: TfrmCadCarro
     Caption = 'Data de Lan'#231'amento'
     TabOrder = 3
   end
-  object btnCadCarro: TButton
+  object btnCadCliente: TButton
     Left = 104
     Top = 88
     Width = 75
     Height = 25
     Caption = 'Cadastrar'
     TabOrder = 2
-    OnClick = btnCadCarroClick
+    OnClick = btnCadClienteClick
   end
   object stcModelo: TStaticText
     Left = 27

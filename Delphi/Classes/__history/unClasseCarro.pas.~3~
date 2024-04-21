@@ -24,14 +24,13 @@ implementation
 
 { TCarro }
 
-//Limpa Propriedades
 procedure TCarro.Clear;
 begin
   FCodigo := 0;
   FModelo := '';
   FDataLancamento := '';
 end;
-//Cria Scrip de Insert
+
 function TCarro.Inserir: String;
 begin
   Result := 'INSERT INTO taif.tbcarro (carmodelo, cardatalancamento)'+

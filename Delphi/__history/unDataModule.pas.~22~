@@ -31,7 +31,6 @@ implementation
 
 {$R *.dfm}
 
-//Faz a conexão no banco, com base no arquivo .Ini
 function TDM.ConectaBanco: Boolean;
 var
   oArquivoINI : TIniFile;

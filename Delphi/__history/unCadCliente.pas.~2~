@@ -40,7 +40,6 @@ implementation
 
 {$R *.dfm}
 
-//Cadastrar Cliente
 procedure TfrmCadCliente.btnCadClienteClick(Sender: TObject);
 var
   oControle: TControl;
@@ -70,7 +69,6 @@ begin
   Close;
 end;
 
-//Verifica se está vazio
 procedure TfrmCadCliente.edtExit(Sender: TObject);
 var
   dData : TDate;
@@ -88,7 +86,6 @@ begin
   oEdit.EditVazio;
 end;
 
-//Permite apenas algumas Key's
 procedure TfrmCadCliente.edtNomeKeyPress(Sender: TObject; var Key: Char);
 begin
   if not ((CharInSet(Key, ['A'..'Z', 'a'..'z', #8, ' '])) and (Length(edtNome.Text) < 255)) then

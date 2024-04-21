@@ -25,6 +25,7 @@ implementation
 
 { TVenda }
 
+//Limpa Propriedades
 procedure TVenda.Clear;
 begin
   FCodigo := 0;
@@ -33,6 +34,7 @@ begin
   FCarro := nil;
 end;
 
+//Cria Scrip de Insert
 function TVenda.Inserir: string;
 begin
   Result :=

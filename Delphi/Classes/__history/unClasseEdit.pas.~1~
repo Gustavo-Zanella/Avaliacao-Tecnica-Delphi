@@ -19,7 +19,6 @@ implementation
 
 { TCliente }
 
-//Verifica se o Edit Está vazio
 function TClasseEdit.EditVazio: Boolean;
 const
   aValoresFixos: array[0..3] of Char = ('-', '_', '.', '/');

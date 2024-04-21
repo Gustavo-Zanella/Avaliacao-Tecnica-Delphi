@@ -26,7 +26,6 @@ implementation
 
 { TCliente }
 
-//Limpa Propriedades
 procedure TCliente.Clear;
 begin
   FCodigo := 0;
@@ -34,7 +33,7 @@ begin
   FCpf := '';
   FDataNascimento := '';
 end;
-//Cria Scrip de Insert
+
 function TCliente.Inserir: String;
 begin
   Result := 'INSERT INTO taif.tbcliente (clinome, clicpf, clidatanascimento)'+

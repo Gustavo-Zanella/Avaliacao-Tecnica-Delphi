@@ -28,7 +28,6 @@ begin
   fSql_ := '';
 end;
 
-//Executa o sql e Devolve um Query
 function TBanco.ExecutarSql: TFDQuery;
 begin
   DM.qryGeral.SQL.Text := fSql_;
@@ -36,7 +35,6 @@ begin
   Clear;
 end;
 
-//Insere registros
 procedure TBanco.InserirDadosBD;
 begin
   Try

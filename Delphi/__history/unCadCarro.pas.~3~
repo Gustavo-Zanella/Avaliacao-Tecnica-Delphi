@@ -11,10 +11,10 @@ type
   TfrmCadCarro = class(TForm)
     edtDataLancamento: TMaskEdit;
     stcDataLancamento: TStaticText;
-    btnCadCarro: TButton;
+    btnCadCliente: TButton;
     stcModelo: TStaticText;
     edtModelo: TEdit;
-    procedure btnCadCarroClick(Sender: TObject);
+    procedure btnCadClienteClick(Sender: TObject);
     procedure edtModeloKeyPress(Sender: TObject; var Key: Char);
     procedure edtExit(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -39,8 +39,7 @@ implementation
 
 {$R *.dfm}
 
-//Cadastra Carro
-procedure TfrmCadCarro.btnCadCarroClick(Sender: TObject);
+procedure TfrmCadCarro.btnCadClienteClick(Sender: TObject);
 var
   oControle: TControl;
   i : Integer;
@@ -67,7 +66,7 @@ begin
 
   Close;
 end;
-//Permite apenas algumas Key's
+
 procedure TfrmCadCarro.edtModeloKeyPress(Sender: TObject; var Key: Char);
 begin
   if not (CharInSet(Key, ['A' .. 'Z','a'..'z',#8, ' ']) and (Length(edtModelo.Text) < 255)) then
