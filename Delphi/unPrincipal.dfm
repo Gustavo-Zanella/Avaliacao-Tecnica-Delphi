@@ -23,7 +23,7 @@ object frmPrincipal: TfrmPrincipal
     OnClick = btnCadastroClick
   end
   object stcTitulo: TStaticText
-    Left = 248
+    Left = 240
     Top = 8
     Width = 140
     Height = 90
