@@ -37,7 +37,7 @@ Antes de iniciar, você deve possuir:
    - Cria um DataBase chamado "local" no seu LocalHost
    - Copei os SQLs de Criação de Tabela, e os Execute
    ```
-2. Configuração do Banco de Dados:
+2. Configuração do Delphi:
    ```bash
    - Execute o Arquivo Taif.Exe
    - Caminho: "Delphi/Win32/Debug"
