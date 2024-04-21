@@ -8,7 +8,8 @@ uses
   Vcl.Grids, Vcl.DBGrids, FireDAC.Stan.Intf, FireDAC.Stan.Option,
   FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
   FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, FireDAC.Comp.DataSet,
-  FireDAC.Comp.Client, unClasseBanco, unClasseVenda, unClasseCarro, unClasseCliente;
+  FireDAC.Comp.Client, unClasseBanco, unClasseVenda, unClasseCarro, unClasseCliente,
+  Vcl.ExtCtrls;
 
 type
   TfrmPrincipal = class(TForm)

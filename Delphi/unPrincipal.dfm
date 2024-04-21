@@ -14,8 +14,8 @@ object frmPrincipal: TfrmPrincipal
   OnShow = FormShow
   TextHeight = 15
   object btnCadastro: TBitBtn
-    Left = 24
-    Top = 192
+    Left = 8
+    Top = 208
     Width = 129
     Height = 73
     Caption = 'Cadastro'
@@ -23,7 +23,7 @@ object frmPrincipal: TfrmPrincipal
     OnClick = btnCadastroClick
   end
   object stcTitulo: TStaticText
-    Left = 240
+    Left = 248
     Top = 8
     Width = 140
     Height = 90
@@ -37,8 +37,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 1
   end
   object DBGrid1: TDBGrid
-    Left = 168
-    Top = 104
+    Left = 159
+    Top = 113
     Width = 465
     Height = 265
     DataSource = dsCliente
