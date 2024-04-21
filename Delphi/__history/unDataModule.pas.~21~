@@ -52,7 +52,7 @@ Begin
     end;
   except
     ShowMessage('Erro na confiração do banco verifique o Config.ini');
-    ShowMessage('Fechando o Programa');
+    ShowMessage('Fechando Programa');
   End;
 end;
 

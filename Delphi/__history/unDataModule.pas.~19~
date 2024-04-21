@@ -51,8 +51,7 @@ Begin
       Result := Connected;
     end;
   except
-    ShowMessage('Erro na confiração do banco verifique o Config.ini');
-    ShowMessage('Fechando o Programa');
+    ShowMessage('Erro Na confiração do Banco. Verifique o Config.ini');
   End;
 end;
 
