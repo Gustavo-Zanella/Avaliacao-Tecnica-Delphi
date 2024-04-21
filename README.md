@@ -41,3 +41,26 @@ Antes de iniciar, você deve possuir:
    - Configure o aqruivo "Config.ini" com base nos dados do seu banco
    - Execute o Arquivo Taif.Exe -> Caminho: "Delphi/Win32/Debug"
    ```
+---
+
+### :large_orange_diamond: Funcionalidade:
+1. Ao iniciar a aplicação será aberta a tela inicial, com o título "TAIF" e a ação "Cadastro"; 
+
+2. Ao clicar no botão "Cadastro", será aberta a sobreposta "Cadastrar Cliente", com os campos obrigatórios "Nome", "CPF" e "Data de Nascimento";
+	2.1. Quando um ou mais campos não tiverem o valor informado, ao clicar na ação "Cadastrar" ou ao remover o blur do campo em branco será emitido o alerta "Valor inválido"; 
+	2.2. O campo "Data de Nascimento" não permite datas inválidas (Ex: 32/13/9999), caso seja informada uma data inválida será emitido o alerta "Valor inválido" e o campo será limpo;
+	2.3. Não será possível fechar a sobreposta "Cadastrar Cliente" antes de cadastrar 5 clientes; 
+
+3. Após cadastrar o 5° cliente, será aberta a sobreposta "Cadastrar Carro". Com os campos obrigatórios "Modelo" e "Data de Lançamento"; 
+	3.1. Quando um ou mais campos não tiverem o valor informado, ao clicar na ação "Cadastrar" ou ao remover o blur do campo em branco será emitido o alerta "Valor inválido"; 
+	3.2. O campo "Data de Lançamento" não permite datas inválidas (Ex: 32/13/9999), caso seja informada uma data inválida será emitido o alerta ""Valor inválido" e o campo será limpo;
+	3.3. Não será possível fechar a sobreposta "Cadastrar Carro" antes de cadastrar 5 carros;
+
+4. Após inserir o 5° carro será emitida a mensagem "Registros Inseridos com Sucesso"; 
+	4.1. Ao clicar no botão "Ok" será retornada a tela inicial da aplicação; 
+	4.2. Ao lado do botão "Cadastro", será exibida a tela de consulta com os 5 clientes inseridos relacionados aos 5 modelos de carro; 
+		4.2.1. A tela de consulta possui as colunas "Venda" (código sequencial), "Data da Venda" (data atual), "Cliente", "CPF Cliente", "Modelo Carro" e "Lançamento do Modelo"; 
+		
+5. Ao clicar novamente no botão "Cadastrar" será possível inserir mais 5 clientes, mais 5 carros e mais 5 vendas;  
+	
+
