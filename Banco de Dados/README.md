@@ -2,6 +2,8 @@
  
  [Dados Utilizados](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/blob/main/Banco%20de%20Dados/Dados%20Utilizados.sql)
 
+ [Modelo do Banco](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/blob/main/Banco%20de%20Dados/Foto%20Modelo.png)
+
  [1 - Gere o script de criação das Tabelas](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/blob/main/Banco%20de%20Dados/Gere%20o%20script%20de%20criação%20das%20Tabelas.sql)
 
  [2 - A quantidade de vendas do carro Marea](https://github.com/Gustavo-Zanella/Avaliacao-Tecnica-Delphi/blob/main/Banco%20de%20Dados/A%20quantidade%20de%20vendas%20do%20carro%20Marea.sql)
