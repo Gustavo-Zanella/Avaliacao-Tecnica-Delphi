@@ -8,7 +8,7 @@ uses
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.PG,
   FireDAC.Phys.PGDef, FireDAC.VCLUI.Wait, Data.DB, FireDAC.Comp.Client,
   FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
-  FireDAC.Comp.DataSet, Vcl.Dialogs;
+  FireDAC.Comp.DataSet, Vcl.Dialogs, IniFiles, ExtCtrls, StdCtrls, vcl.Forms;
 
 type
   TDM = class(TDataModule)
@@ -19,7 +19,7 @@ type
   private
     { Private declarations }
   public
-    { Public declarations }
+    Function ConectaBanco: Boolean;
   end;
 
 var
@@ -31,17 +31,30 @@ implementation
 
 {$R *.dfm}
 
-procedure TDM.DataModuleCreate(Sender: TObject);
-begin
+function TDM.ConectaBanco: Boolean;
+var
+  oArquivoINI : TIniFile;
+Begin
+  Result := False;
+
+  oArquivoINI := Tinifile.Create(ExtractFilePath(ParamStr(0)) + 'Config.ini');
+
   With conDB do
   begin
     Params.Clear;
-    Params.Values['Password'] := 'postgres';
-    Params.Values['User_name'] := 'postgres';
-    Params.Values['Database'] := 'local';
-    Params.Values['Server'] := '';
+    Params.Values['DriverID'] := oArquivoINI.ReadString('BANCO','DATABASE', '');
+    Params.Values['Password'] := oArquivoINI.ReadString('BANCO','PASSWORD', '');
+    Params.Values['User_name'] := oArquivoINI.ReadString('BANCO','USER_NAME', '');
+    Params.Values['Database'] := oArquivoINI.ReadString('BANCO','DATABASE', '');
+    Params.Values['Server'] := oArquivoINI.ReadString('BANCO','SERVER', '');
     Connected := True;
   end;
+end;
+
+procedure TDM.DataModuleCreate(Sender: TObject);
+begin
+  if not ConectaBanco then
+    Application.Terminate;
 end;
 
 end.

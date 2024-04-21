@@ -8,7 +8,7 @@ uses
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.PG,
   FireDAC.Phys.PGDef, FireDAC.VCLUI.Wait, Data.DB, FireDAC.Comp.Client,
   FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
-  FireDAC.Comp.DataSet, Vcl.Dialogs, IniFiles, ExtCtrls, StdCtrls;
+  FireDAC.Comp.DataSet, Vcl.Dialogs;
 
 type
   TDM = class(TDataModule)
@@ -19,7 +19,7 @@ type
   private
     { Private declarations }
   public
-    Function ConectaBanco: Boolean;
+    { Public declarations }
   end;
 
 var
@@ -31,26 +31,15 @@ implementation
 
 {$R *.dfm}
 
-function TDM.ConectaBanco: Boolean;
-var
-  oArquivoINI : TIniFile;
-Begin
-  Result := False;
-
-  oArquivoINI := Tinifile.Create(ExtractFilePath(ParamStr(0)) + 'Config.ini');
-
-end;
-
 procedure TDM.DataModuleCreate(Sender: TObject);
 begin
   With conDB do
   begin
     Params.Clear;
-    Params.Values['DriverID'] := 'PG';
     Params.Values['Password'] := 'postgres';
     Params.Values['User_name'] := 'postgres';
     Params.Values['Database'] := 'local';
-    Params.Values['Server'] := '127.0.0.1';
+    Params.Values['Server'] := '';
     Connected := True;
   end;
 end;
