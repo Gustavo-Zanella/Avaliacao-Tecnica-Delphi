@@ -83,8 +83,6 @@ begin
 
   CadastraVenda;
   CarregaDadosCliente;
-
-  ShowMessage('Registros Inseridos com Sucesso');
 end;
 
 procedure TfrmPrincipal.CadastraVenda;

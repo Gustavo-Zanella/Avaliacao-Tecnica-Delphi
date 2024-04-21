@@ -88,11 +88,11 @@ end;
 
 procedure TfrmCadCliente.edtNomeKeyPress(Sender: TObject; var Key: Char);
 begin
-  if not ((CharInSet(Key, ['A'..'Z', 'a'..'z', #8, ' '])) and (Length(edtNome.Text) < 255)) then
+  if not (CharInSet(Key, ['A' .. 'Z','a'..'z',#8]) and (Length(edtNome.Text) < 255)) then
   begin
-    if not (Key in [#8, ' ']) then
-      Key := #0;
-  end;
+   if (Key <> #8) then
+     Key := #0;
+   end;
 end;
 
 procedure TfrmCadCliente.FormShow(Sender: TObject);
