@@ -4,12 +4,8 @@ object DM: TDM
   Width = 215
   object conDB: TFDConnection
     Params.Strings = (
-      'User_Name=postgres'
       'Password=postgres'
-      'Database=local'
-      'Server=127.0.0.1'
       'DriverID=PG')
-    Connected = True
     Left = 16
     Top = 16
   end

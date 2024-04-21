@@ -31,4 +31,17 @@ implementation
 
 {$R *.dfm}
 
+procedure TDM.DataModuleCreate(Sender: TObject);
+begin
+  With conDB do
+  begin
+    Params.Clear;
+    Params.Values['Password'] := 'postgres';
+    Params.Values['User_name'] := 'postgres';
+    Params.Values['Database'] := 'local';
+    Params.Values['Server'] := '';
+    Connected := True;
+  end;
+end;
+
 end.
