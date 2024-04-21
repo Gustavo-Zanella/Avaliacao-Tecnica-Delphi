@@ -8,13 +8,14 @@ uses
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.PG,
   FireDAC.Phys.PGDef, FireDAC.VCLUI.Wait, Data.DB, FireDAC.Comp.Client,
   FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
-  FireDAC.Comp.DataSet;
+  FireDAC.Comp.DataSet, Vcl.Dialogs;
 
 type
   TDM = class(TDataModule)
     conDB: TFDConnection;
     qryGeral: TFDQuery;
     PgDriverLink: TFDPhysPgDriverLink;
+    procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
   public

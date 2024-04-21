@@ -1,4 +1,5 @@
 object DM: TDM
+  OnCreate = DataModuleCreate
   Height = 175
   Width = 215
   object conDB: TFDConnection
@@ -8,6 +9,7 @@ object DM: TDM
       'Database=local'
       'Server=127.0.0.1'
       'DriverID=PG')
+    Connected = True
     Left = 16
     Top = 16
   end
@@ -29,8 +31,7 @@ object DM: TDM
     Top = 16
   end
   object PgDriverLink: TFDPhysPgDriverLink
-    VendorLib = 'C:\Program Files (x86)\PostgreSQL\psqlODBC\bin\libpq.dll'
-    Left = 128
+    Left = 144
     Top = 16
   end
 end

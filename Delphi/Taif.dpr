@@ -2,11 +2,11 @@ program Taif;
 
 uses
   Vcl.Forms,
+  unDataModule in 'unDataModule.pas' {DM: TDataModule},
   unPrincipal in 'unPrincipal.pas' {frmPrincipal},
   unCadCliente in 'unCadCliente.pas' {frmCadCliente},
   unCadCarro in 'unCadCarro.pas' {frmCadCarro},
   unClasseCliente in 'Classes\unClasseCliente.pas',
-  unDataModule in 'unDataModule.pas' {DM: TDataModule},
   unClasseEdit in 'Classes\unClasseEdit.pas',
   unClasseBanco in 'Classes\unClasseBanco.pas',
   unClasseCarro in 'Classes\unClasseCarro.pas',

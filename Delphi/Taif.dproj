@@ -98,6 +98,10 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
+        <DCCReference Include="unDataModule.pas">
+            <Form>DM</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
         <DCCReference Include="unPrincipal.pas">
             <Form>frmPrincipal</Form>
             <FormType>dfm</FormType>
@@ -111,11 +115,6 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="Classes\unClasseCliente.pas"/>
-        <DCCReference Include="unDataModule.pas">
-            <Form>DM</Form>
-            <FormType>dfm</FormType>
-            <DesignClass>TDataModule</DesignClass>
-        </DCCReference>
         <DCCReference Include="Classes\unClasseEdit.pas"/>
         <DCCReference Include="Classes\unClasseBanco.pas"/>
         <DCCReference Include="Classes\unClasseCarro.pas"/>
