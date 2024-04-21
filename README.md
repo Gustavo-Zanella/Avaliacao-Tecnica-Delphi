@@ -34,11 +34,11 @@ Antes de iniciar, você deve possuir:
 1. Configuração do Banco de Dados:
    ```bash
    - Abra seu Postgres
-   - Cria um DataBase chamado "local" no seu LocalHost
    - Copei os SQLs de Criação de Tabela, e os Execute
    ```
 2. Configuração do Delphi:
    ```bash
+   - Configure o aqruivo "Config.ini" com base nos dados do seu banco
    - Execute o Arquivo Taif.Exe
    - Caminho: "Delphi/Win32/Debug"
    ```
