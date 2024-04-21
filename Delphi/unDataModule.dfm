@@ -6,8 +6,8 @@ object DM: TDM
       'User_Name=postgres'
       'Password=postgres'
       'Database=local'
+      'Server=127.0.0.1'
       'DriverID=PG')
-    Connected = True
     Left = 16
     Top = 16
   end

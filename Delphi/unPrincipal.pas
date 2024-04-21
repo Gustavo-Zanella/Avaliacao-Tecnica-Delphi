@@ -55,7 +55,6 @@ var
 begin
   for i := 0 to 4 do
   begin
-    ShowMessage(DateToStr(Now));
     frmCadCliente.ShowModal;
     oBanco.Sql_ := 'SELECT MAX(CLICODIGO) AS CLICODIGO FROM TAIF.TBCLIENTE';
     oQuery := oBanco.ExecutarSql;
@@ -128,6 +127,7 @@ end;
 procedure TfrmPrincipal.FormShow(Sender: TObject);
 begin
   CarregaDadosCliente;
+  ShowMessage(DM.conDB.ConnectionName);
 end;
 
 function TfrmPrincipal.GetBanco: TBanco;
